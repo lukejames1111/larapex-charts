@@ -357,6 +357,9 @@ class LarapexChart
             'legend' => [
                 'show' => ($this->showLegend ? 'true' : 'false'),
             ],
+            'yaxis' => [
+                'decimalsInFloat' => 0,
+            ]
         ];
 
         if ($this->labels !== []) {
