@@ -358,7 +358,7 @@ class LarapexChart
                 'show' => ($this->showLegend ? 'true' : 'false'),
             ],
             'yaxis' => [
-                'mine' => 0,
+                'min' => 0,
                 'decimalsInFloat' => 0,
             ]
         ];
